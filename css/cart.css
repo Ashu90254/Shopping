@@ -1,0 +1,117 @@
+body {
+    background-color: #e2e2e2;
+}
+
+#main_div {
+    margin-top: 60px;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#show_div {
+    height: auto;
+    width: 60%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 18px 2px #b1b1b1;
+}
+
+#count_div {
+    height: 100%;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px 2px #b1b1b1;
+}
+
+.show_table {
+    width: 100%;
+    border: 1px solid blue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.col {
+    border-bottom: 1px solid black;
+}
+
+#table_head,
+#summary_head {
+    padding: 15px;
+}
+
+#name {
+    text-align: left;
+    font-size: 15px;
+}
+
+#delete {
+    text-decoration: none;
+    color: red;
+    font-size: 14px;
+}
+
+.table_comon {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    height: auto;
+}
+
+#table_count td {
+    padding: 8px;
+}
+
+#coupon_apply {
+    font-weight: bold;
+    border-radius: 6px;
+    color: white;
+    background-color: green;
+    width: 100%;
+    border: none;
+    height: 22px;
+    cursor: pointer;
+}
+#coupon_apply:hover{
+    box-shadow: 0 0 5px 0px green;
+}
+
+#order_now {
+    background-color: green;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    height: 26px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#order_now:hover {
+    background-color: #20a220;
+    transition: all 0.5s;
+}
+
+input[type="text"] {
+    width: 62%;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    height: 22px;
+}
+@media screen and (max-width: 720px) {
+
+    #count_div {
+        margin-top: 30px;
+        width: 80%;
+    }
+    #show_div {
+        width: 80%;
+    }
+    #main_div{
+        flex-wrap: wrap;
+    }
+  }
